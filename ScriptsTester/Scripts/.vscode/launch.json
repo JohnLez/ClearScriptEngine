@@ -1,0 +1,25 @@
+{
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+    
+            {
+    
+                "name": "Attach to ClearScript V8 on port 5858",
+    
+                "type": "node",
+    
+                "request": "attach",
+    
+                "protocol": "inspector",
+    
+                "address": "localhost",
+    
+                "port": 9222
+    
+            }
+    
+        ]
+    
+    }
+}
